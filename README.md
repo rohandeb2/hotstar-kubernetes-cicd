@@ -30,24 +30,9 @@ This project demonstrates a complete DevOps workflow for deploying a streaming a
 
 ## 🏗️ Architecture
 
-```
-┌─────────────┐      ┌──────────────┐      ┌─────────────┐
-│   GitHub    │─────▶│   Jenkins    │─────▶│   Docker    │
-│ Repository  │      │   Pipeline   │      │   Registry  │
-└─────────────┘      └──────────────┘      └─────────────┘
-                            │                      │
-                            ▼                      ▼
-                     ┌──────────────┐      ┌─────────────┐
-                     │  SonarQube   │      │   AWS EKS   │
-                     │   & Trivy    │      │  Cluster    │
-                     └──────────────┘      └─────────────┘
-                                                  │
-                                                  ▼
-                                           ┌─────────────┐
-                                           │ Prometheus  │
-                                           │  & Grafana  │
-                                           └─────────────┘
-```
+<div align="center">
+  <img src="src/components/Screenshot 2025-10-13 125548.png" >
+</div>
 
 ## 🛠️ Technologies Used
 
