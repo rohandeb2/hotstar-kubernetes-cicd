@@ -2,7 +2,6 @@
 
 ![Hotstar Banner](https://img.shields.io/badge/Disney+-Hotstar-0063e5?style=for-the-badge&logo=disney&logoColor=white)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
 > A production-grade DevOps implementation of a Hotstar clone application deployed on AWS EKS with complete CI/CD pipeline, security scanning, and monitoring.
 
